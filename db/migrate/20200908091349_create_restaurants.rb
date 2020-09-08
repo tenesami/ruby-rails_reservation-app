@@ -5,6 +5,7 @@ class CreateRestaurants < ActiveRecord::Migration[6.0]
       t.integer :occupancy
       t.string :location
 
+      t.belongs_to :user, foreign_key: true
       t.timestamps
     end
   end
