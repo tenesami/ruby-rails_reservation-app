@@ -20,7 +20,7 @@ Reservation
     - belongs_to :restaurant 
     - belongs_to :user 
 
-    -r-name
-    -number_of_table:string
-    -chekin date
+    -r_name
+    -num_table: integer
+    -checkin date
     -description :string
